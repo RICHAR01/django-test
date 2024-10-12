@@ -5,7 +5,7 @@ FROM python:3.11.4-slim-bullseye
 ENV PYTHONBUFFERED=1
 
 # Define an environment variable for the web service's port, commonly used in cloud services
-ENV PORT 8080
+ENV PORT 8000
 
 # Set the working directory within the container to /app for any subsequent commands
 WORKDIR /app
